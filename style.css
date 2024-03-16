@@ -23,8 +23,8 @@ body {
   width: 300px;
   position:relative;
   top: 20px;
-  left: 20px;
   overflow:auto;
+  margin-left:20px;
 }
 
 .obsah {
@@ -35,14 +35,14 @@ body {
   padding: 10px 20px 25px 20px;
   position:relative;
   top: 15px;
-  left:20px;
+  margin-left: 20px;
 }
 .logo {
   position: relative;
   background-color:#b92e81;
   border-radius: 50%;
-  right: 60px;
-  bottom: -40px;
+  right: 80px;
+  bottom: -50px;
   z-index: 100;
   box-shadow: 3px 5px #25282b;
 }
@@ -53,54 +53,44 @@ body {
   text-transform: uppercase;
   font-family: "Montserrat", sans-serif;
   position: relative;
-  left: 20px;
   top: -1px;
   border: 1px solid #3f464d;
+  margin-left: 20px;
+}
+.odkazy li {
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
 }
 .odkazy a {
-text-decoration: none;
-color: lightgrey;
-}
-
-.portfolio {
   display: block;
-  position:relative;
-  left: -20px;
+  text-decoration: none;
+  color: lightgrey;
+}
+.portfolio { 
   width: 100%;
   text-align: center;
   padding: 10px 20px 10px 20px;
 }
 .facebook {
-  display: inline-block;
-  position: relative;
-  left: -40px;
-  border: 1px solid #3f464d;
   width: 50%;
-  text-align: center;
+  border: 1px solid #3f464d;
   padding: 10px 20px 10px 20px;
 }
 .twitter {
-  display: inline-block;
   width: 50%;
   border: 1px solid #3f464d;
-  text-align: center;
   padding: 10px 20px 10px 20px;
 }
 .portfolio a:hover {
   background-color: #e74c3c;
   color:white;
-  padding: 10px 20px 10px 20px;
 }
 .facebook a:hover {
   background-color: #3b5998;
   color: white;
-  padding: 10px 20px 10px 20px;
-  position:relative;
-  left: -20px;
 }
 .twitter a:hover {
   background-color: #1da1f2;
   color: white;
-  padding: 10px 20px 10px 20px;
 }
 
