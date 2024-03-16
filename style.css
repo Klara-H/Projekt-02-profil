@@ -56,34 +56,35 @@ body {
   top: -1px;
   border: 1px solid #3f464d;
   margin-left: 20px;
+  padding: 0;
 }
 .odkazy li {
   display: inline-block;
-  padding: 10px 20px 10px 20px;
 }
 .odkazy a {
   display: block;
   text-decoration: none;
   color: lightgrey;
+  padding: 10px 20px 10px 20px;
 }
 .portfolio { 
   width: 100%;
   text-align: center;
-  padding: 10px 20px 10px 20px;
 }
 .facebook {
   width: 50%;
   border: 1px solid #3f464d;
-  padding: 10px 20px 10px 20px;
+  text-align: center;
 }
 .twitter {
   width: 50%;
   border: 1px solid #3f464d;
-  padding: 10px 20px 10px 20px;
+  text-align: center;
 }
 .portfolio a:hover {
   background-color: #e74c3c;
   color:white;
+  padding: 10px 25px 10px 25px;
 }
 .facebook a:hover {
   background-color: #3b5998;
